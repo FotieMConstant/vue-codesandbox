@@ -24,7 +24,11 @@ export default {
 Once done, you can now use the component in your templete section with the required props passed in as such
 
 ```
-<vuecodesandbox codeUrl="https://codesandbox.io/s/vue-vue?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" width="1000" height="1000"/>
+<vuecodesandbox 
+codeUrl="https://codesandbox.io/s/vue-vue?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" 
+width="1000" 
+height="1000"
+/>
 ```
 
 ```
