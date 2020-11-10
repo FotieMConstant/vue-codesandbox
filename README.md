@@ -1,5 +1,5 @@
 # vue-codesandbox
-vue-codesandbox lets you embed your codesandbox link on to your vue application
+vue-codesandbox lets you embed your codesandbox code on to your vue application
 
 ## Package setup
 install vue-codesandbox by running the following command
