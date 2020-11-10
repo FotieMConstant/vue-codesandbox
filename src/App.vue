@@ -1,19 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <vuecodesandbox
+      codeUrl="https://codesandbox.io/s/vue-vue?autoresize=1&fontsize=14&hidenavigation=1&theme=dark"
+      width="1000"
+      height="1000"
+    />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import vuecodesandbox from "./components/vue-codesandbox.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    vuecodesandbox,
+  },
+};
 </script>
 
 <style>
