@@ -1,24 +1,25 @@
 # vue-codesandbox
+vue-codesandbox lets you embed your codesandbox link on to your vue application
 
 ## Project setup
 ```
-npm install
+npm i vue-codesandbox
+```
+## Usage
+```
+<template>
+  <div id="app">
+    <vue-codesandbox
+      codeUrl="https://codesandbox.io/s/vue-vue?autoresize=1&fontsize=14&hidenavigation=1&theme=dark"
+      width="1000"
+      height="1000"
+    />
+  </div>
+</template>
+
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## props
+codeUrl(required) : String
+Width(required) : Type(Number)
+height(required) : Type(Number)
