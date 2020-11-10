@@ -20,6 +20,6 @@ npm i vue-codesandbox
 ```
 
 ## props
-codeUrl(required) : String
-Width(required) : Type(Number)
-height(required) : Type(Number)
+- codeUrl(required) : String
+- Width(required) : Type(Number)
+- height(required) : Type(Number)
