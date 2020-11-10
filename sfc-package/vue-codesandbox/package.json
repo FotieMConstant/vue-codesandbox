@@ -1,6 +1,6 @@
 {
   "name": "vue-codesandbox",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "vue-codesandbox lets you embed your codesandbox link on to your vue application",
   "main": "dist/vue-codesandbox.ssr.js",
   "browser": "dist/vue-codesandbox.esm.js",
