@@ -11,7 +11,7 @@ In your component, after intalling the package, import it as follows
 ```
 import vuecodesandbox from "vue-codesandbox";
 ```
-Then include the component inyour export for it to work
+Then include the component in your export
 
 ```
 export default {
